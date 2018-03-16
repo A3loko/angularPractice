@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+  <div *ngFor="let movie of movieDisplay">
+    <div class="col-4">
+
+    <!-- Card -->
+    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+    
+      <!-- Content -->
+      <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+        <div>
+          <h5 class="pink-text">
+            <i class="fa fa-pie-chart"></i> {{vote_average}}</h5>
+          <h3 class="card-title pt-2">
+            <strong>{{movie.title}}</strong>
+          </h3>
+          <p>{{movie.overview}}</p>
+          <a class="btn btn-pink">
+            <i class="fa fa-clone left"></i>Add to Favourites</a>
+        </div>
+      </div>
+      <!-- Content -->
+    </div>
+    <!-- Card -->
+    </div>
+    </div>
+    </div>
+  </div>

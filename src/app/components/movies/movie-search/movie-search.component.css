@@ -1,0 +1,16 @@
+input {
+  margin-left: 10%;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid rgba(104, 96, 96, 0.918);
+  width: 80%;
+}
+
+button {
+  margin-left: 47.4%;
+  margin-top: 15px;
+  background-color: transparent;
+  border-color: #ccc;
+}
